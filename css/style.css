@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(36, 54, 64);
+    font-family: "Titillium Web", sans-serif;
+}
+
+.box {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+input::placeholder {
+    color: silver !important;
+}
+
+input:focus {
+    border-color: rgb(14, 202, 240) !important;
+    box-shadow: none !important;
+    caret-color: white;
+    color: white !important;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+span a:hover {
+    text-decoration: underline !important;
+}
+
+button:hover {
+    color: white !important;
+}
+
+.navbar {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+
+button a:hover {
+    color: white !important;
+}
